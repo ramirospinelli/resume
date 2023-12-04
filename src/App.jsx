@@ -3,9 +3,7 @@ import ResumeHeader from './components/header/ResumeHeader';
 import PersonalProfile from './components/personalProfile/PersonalProfile';
 import WorkExperienceCard from './components/workExperience/WorkExperience';
 import CustomCard from './shared/card/CustomCard';
-import {Divider} from '@mui/material'
 import './App.css';
-
 
 function App() {
   return (
@@ -15,19 +13,16 @@ function App() {
           <ResumeHeader />
         </div>
         <div className="leftSide">
-        <PersonalProfile />
+          <PersonalProfile />
         </div>
-        <div className="body">
-          <CustomCard title={'work experience 👷🏼'}>
-            {workExperienceList.map((work, index) =>  
-            <div>
+        <div className="body">          
+          {workExperienceList.map((work, index) =>  
+            <CustomCard title={index === 0 ? 'work experience 👷🏼' : ''}>
               <WorkExperienceCard work={work}/>
-              {index !== workExperienceList.length - 1 && <Divider/>}
-            </div>
-            )}
-          </CustomCard>
+            </CustomCard>
+          )}
         </div>
-    </div>
+      </div>
     </div>
   );
 }

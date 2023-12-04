@@ -20,15 +20,14 @@ const ResumeHeader = () => {
       <img src={ProfilePicture} className='imagen-circular' alt={'profile'}/>
       <div className='header-resume'>
         <div className='center'>
-          <h1>Ramiro Spinelli</h1>
+          <h1 className='text-shadow'>Ramiro Spinelli</h1>
           <Tooltip title='Download Resume'>
             <Button>
               <DownloadIcon onClick={handleDownload} style={{color: 'white'}}/>
             </Button>
           </Tooltip>
         </div>
-        <h2>Software Developer</h2>
-        <h3>Tucumán, Argentina 🇦🇷</h3>
+        <h3 style={{color: 'gray'}}>Software Developer</h3>
       </div>
     </div>
   )

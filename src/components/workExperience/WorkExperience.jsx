@@ -12,7 +12,7 @@ const WorkExperienceCard = ({work}) => {
       <Link href={work.companyUrl} style={{fontWeight: 600, textDecoration: 'none'}}>{work.companyUrl}</Link>
       <p style={{margin: '5px 0', fontWeight: 400, fontSize: 12}}>{work.date.toUpperCase()}</p>
     
-      <ListItemButton onClick={() => setOpen(!open)}>
+      <ListItemButton onClick={() => setOpen(!open)} style={{padding: '10px 0'}}>
         <ListItemText primary="🛠️ Tools:" />
           {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>

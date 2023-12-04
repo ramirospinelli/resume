@@ -5,7 +5,7 @@ const PersonalProfile = () => {
 
   return(
     <section>
-      <CustomCard title={'personal profile 👨🏼‍💻'}>
+      <CustomCard title={'personal profile 🤓'}>
         <p>Passionate for technology and outdoor sports. More than 5 years helping companies to achieve their goals developing web applications solutions with the most modern Javascript frameworks and libraries.</p>
           <p>I like to keep learning every day and continue growing as a professional building good relationships with my colleagues.</p>
       </CustomCard>
