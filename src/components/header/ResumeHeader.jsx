@@ -1,8 +1,9 @@
 import { Tooltip } from '@mui/material';
-import ProfilePicture from '../../assets/perfil.jpeg';
+import ProfilePicture from '../../assets/perfil.png';
 import './ResumenHeader.css'
 import DownloadIcon from '@mui/icons-material/GetApp'
 import Resume from '../../assets/resume.pdf'
+import {Button} from '@mui/material'
 
 const ResumeHeader = () => {
   const handleDownload = () => {
@@ -21,10 +22,12 @@ const ResumeHeader = () => {
         <div className='center'>
           <h1>Ramiro Spinelli</h1>
           <Tooltip title='Download Resume'>
-            <DownloadIcon onClick={handleDownload} style={{color: 'white', cursor: 'pointer', marginLeft: 10}}/>
+            <Button>
+              <DownloadIcon onClick={handleDownload} style={{color: 'white'}}/>
+            </Button>
           </Tooltip>
         </div>
-        <h3>Software Developer</h3>
+        <h2>Software Developer</h2>
         <h3>Tucumán, Argentina 🇦🇷</h3>
       </div>
     </div>

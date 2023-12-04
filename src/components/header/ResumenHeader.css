@@ -1,7 +1,12 @@
 .header-resume {
   text-align: center;
   padding: 20px;
-  color: white
+  color: white;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-resume h1 {
@@ -24,6 +29,6 @@
 .center {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 

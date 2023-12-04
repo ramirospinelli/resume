@@ -2,7 +2,7 @@ export const workExperienceList = [
   {
     company: 'Kodaris',
     role: 'Senior UX Engineer',
-    companyUrl: 'www.kodaris.com',
+    companyUrl: 'https://www.kodaris.com',
     date: 'oct 2023 - present',
     skills: [
       'Frontend Developer',
@@ -14,7 +14,7 @@ export const workExperienceList = [
   {
     company: 'Sovos',
     role: 'Senior Software Engineer',
-    companyUrl: 'www.sovos.com',
+    companyUrl: 'https://www.sovos.com',
     date: 'aug 2017 - jun 2021 / mar 2022 - nov 2023',
     skills: [
       'Fulls stack developer building web app',
@@ -27,7 +27,7 @@ export const workExperienceList = [
   {
     company: 'Axioma Studios',
     role: 'Senior Full Stack Developer',
-    companyUrl: 'www.axiomastudios.com',
+    companyUrl: 'https://www.axiomastudios.com',
     date: 'aug 2020 - may 2022',
     skills: [
       'Typescript',
@@ -40,7 +40,7 @@ export const workExperienceList = [
   {
     company: 'Lenio Labs',
     role: 'Frontend Developer',
-    companyUrl: 'www.leniolabs.com',
+    companyUrl: 'https://www.leniolabs.com',
     date: 'jun 2021 - sept 2021',
     skills: [
       'Frontend Developer',
@@ -51,7 +51,7 @@ export const workExperienceList = [
   {
     company: 'Global Learning',
     role: 'Academic Assitant',
-    companyUrl: 'www.globalearning.net',
+    companyUrl: 'https://www.globalearning.net',
     date: 'sept 202 - sept 2021',
     skills: [
       'HTML',

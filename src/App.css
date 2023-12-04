@@ -1,11 +1,11 @@
 .layout {
-  width: 60%;
-  border: solid 1px;
+  width: 50%;
   display: grid;
   grid:
   "header header header" 200px
   "leftSide body body" auto
   / 350px auto auto;
+  background-color: #e1dede;
 }
 
 .header { 
@@ -20,10 +20,7 @@
 }
 .leftSide { 
   grid-area: leftSide; 
-  padding: 10px;
 }
 .body { 
 grid-area: body;
-background-color: #e1dede;
-padding: 10px
 }
