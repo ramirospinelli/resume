@@ -1,0 +1,29 @@
+.layout {
+  width: 60%;
+  border: solid 1px;
+  display: grid;
+  grid:
+  "header header header" 200px
+  "leftSide body body" auto
+  / 350px auto auto;
+}
+
+.header { 
+  grid-area: header;
+  background-image: url('./assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+.leftSide { 
+  grid-area: leftSide; 
+  padding: 10px;
+}
+.body { 
+grid-area: body;
+background-color: #e1dede;
+padding: 10px
+}

@@ -1,0 +1,45 @@
+# Dependencias
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Directorios de salida del compilador/runtime
+build/
+dist/
+out/
+
+# Archivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de configuración del editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema de archivos OS
+.DS_Store
+Thumbs.db
+
+# Carpetas de perfil de usuario de npm
+npm-debug.log*
+node_modules/
+jspm_packages/
+
+# Archivos de paquetes de TypeScript
+*.tsbuildinfo
+
+# Archivos de paquetes Yarn
+.yarn-integrity
+.yarn-cache
+
+# Archivos generados durante la ejecución
+tmp
+temp
