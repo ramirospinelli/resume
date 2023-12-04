@@ -2,12 +2,12 @@ import { Tooltip } from '@mui/material';
 import ProfilePicture from '../../assets/perfil.jpeg';
 import './ResumenHeader.css'
 import DownloadIcon from '@mui/icons-material/GetApp'
+import Resume from '../../assets/resume.pdf'
 
 const ResumeHeader = () => {
   const handleDownload = () => {
-    const url = '../../assets/resume.pdf'; // Reemplaza esto con la URL de tu PDF
     const link = document.createElement('a');
-    link.href = url;
+    link.href = Resume;
     link.download = 'Ramiro Spinelli - Resume.pdf'; 
     document.body.appendChild(link);
     link.click();
