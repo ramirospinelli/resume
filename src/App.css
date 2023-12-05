@@ -1,5 +1,4 @@
 .layout {
-  width: 50%;
   display: grid;
   grid:
   "header header header" 200px
